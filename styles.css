@@ -1,0 +1,170 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+h1, h2 {
+    color: #935d00;
+
+}
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: #935d00;
+}
+a{
+    text-align: center;
+    color: #935d00;
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    color: black;
+ 
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(240, 169, 37, 0.1);
+    margin-bottom: 20px;
+    border: 2px solid #935d00;
+}
+
+
+#resume-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    object-fit: cover; 
+  
+}
+
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    position: relative;
+    border: 1px solid #e2ab4d;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+   
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border: 1px solid #935d00;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #935d00;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e2ab4d;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+#resume {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#resume-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #935d00;
+    
+}
+
+/* profile pic ki styling k liye */
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #935d00;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #935d00;
+    border-bottom: 2px solid #935d00;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.skill {
+    background-color: #935d00;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+
+.plus-icon {
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #935d00;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.plus-icon:hover {
+    background-color: #e2ab4d;
+}
+
+.dynamic-section {
+    margin-bottom: 20px;
+}
+
+
+
